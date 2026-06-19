@@ -23,7 +23,7 @@ Relacionamentos:
   * `(:User)-[:WATCHED {rating: float}]->(:Movie / :Series)`: Conecta o usuário ao conteúdo que ele assistiu, armazenando a nota de avaliação dada por ele.
   * `(:Movie / :Series)-[:IN_GERNE]->(:Genre)`: Classifica os conteúdos dentro de suas respectivas categorias.
 
-## 🛠️ Conteúdo do Repositório
+##  Conteúdo do Repositório
 
 'script.cypher': Script SQL-like com comandos Cypher comentados contendo:
   * Criação de **Constraints** de unicidade para garantir integridade dos IDs.
